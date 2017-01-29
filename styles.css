@@ -1,0 +1,77 @@
+  *{
+    boxsizing: border-box;
+  }
+
+
+body {
+  background-color: #22A198;
+}
+p {
+    margin-bottom: 2cm;
+}
+h2 {
+    color: red;
+}
+body {
+    font: 20px arial;
+}
+h3 {
+    text-indent: 100px;
+}
+img {
+    height: auto;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+li {
+    color: indianred;
+    font-family: 'Pacifico';
+    font-style: italic;
+}
+
+    #welcome {
+      color: gold;
+    }
+li {
+    text-align: justify;
+    float: left;
+    width:30%;
+    color: red;
+    border: 2px solid red;
+}
+  .animal {
+    font-size: 20px;
+    font-weight: bold;
+    color: ivory;
+  }
+  .mammal {
+    color: gray;
+  }
+  .bird {
+    color: silver;
+    text-decoration: underline;
+  }
+  #best-animal {
+  color:deepskyblue;
+}
+a{
+  display:block;
+  font-size:25px;
+  color: blue;
+}
+
+a::visited{
+  color:green;
+
+}
+a::first-letter{
+  font-size: 30px;
+}
+a::hover{
+  color: purple;
+}
+.bear{
+  clear: both;
+  display: block;
+}
